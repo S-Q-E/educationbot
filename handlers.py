@@ -2,7 +2,7 @@ from datetime import datetime
 
 from aiogram import Dispatcher, F
 from aiogram.types import Message
-from pdf_generator import save_lesson_pdf
+from .pf import save_lesson_pdf
 from aiogram.types import FSInputFile
 from database import Session, LessonHistory
 from gpt_services import generate_lesson
